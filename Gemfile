@@ -33,8 +33,7 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-#mejores errores de rails
-gem 'better_errors', '~> 2.5', '>= 2.5.1'
+
 
 
 #bulma css es un framework
@@ -63,9 +62,9 @@ group :development do
   #Guard::LiveReload automatically reloads your browser when 'view' files are modified.
   gem 'guard-livereload', '~> 2.5', '>= 2.5.2' , require: false
 
-
-
-
+  #mejores errores de rails
+  gem 'better_errors', '~> 2.5', '>= 2.5.1'
+  gem "binding_of_caller"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
