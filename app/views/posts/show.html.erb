@@ -17,8 +17,7 @@
 				</p>
 
 				<p class ="level-item">
-					<!-- Add rails functionality para borrar -->
-					<a class="button is-danger">Delete</a>
+					<%= link_to "Delete", post_path(@post), method: :delete, data: { confirm: "Estas seguro?" }, class: "button is-danger" %>
 				</p>
 			</div>
 		</nav>
@@ -30,5 +29,5 @@
 </section>
 
 <section class="comments">
-	
+		
 </section>
