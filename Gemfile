@@ -63,7 +63,7 @@ group :development do
   gem 'guard-livereload', '~> 2.5', '>= 2.5.2' , require: false
 
   #mejores errores de rails
-  gem 'better_errors', '~> 2.5', '>= 2.5.1'
+  gem 'better_errors', '~> 2.8'
   gem "binding_of_caller"
 end
 
